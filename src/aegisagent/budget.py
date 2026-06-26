@@ -1,7 +1,15 @@
+"""
+AegisAgent Core Framework
+Developed by AI Knights (codecached)
+Founding Architect: Srinivasan Panneer
+
+Secure, Deterministic Safety Layer for Autonomous AI Agents.
+Distributed under the MIT License. Copyright (c) 2026 AI Knights.
+"""
+
 import functools
-import sys
-from dataclasses import dataclass, field
 from collections.abc import Callable
+from dataclasses import dataclass, field
 from typing import Any
 
 
@@ -53,7 +61,7 @@ class AgentSession:
 
     def _trigger_circuit_breaker(self, message: str):
         """Halts the execution pipeline deterministically."""
-        print(f"\n[AegisAgent - CRITICAL] Circuit Breaker Tripped!")
+        print("\n[AegisAgent - CRITICAL] Circuit Breaker Tripped!")
         print("-" * 50)
         print(f"Reason: {message}")
         print(f"Total Iterations: {self.current_iterations}")

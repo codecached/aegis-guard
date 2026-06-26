@@ -1,3 +1,12 @@
+"""
+AegisAgent Core Framework
+Developed by AI Knights (codecached)
+Founding Architect: Srinivasan Panneer
+
+Secure, Deterministic Safety Layer for Autonomous AI Agents.
+Distributed under the MIT License. Copyright (c) 2026 AI Knights.
+"""
+
 import json
 import os
 from collections.abc import Callable
